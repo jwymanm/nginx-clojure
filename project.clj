@@ -31,10 +31,10 @@
   :profiles {
              :provided {
                         :dependencies [
-                                  [org.clojure/clojure "1.5.1"]]
+                                  [org.clojure/clojure "1.7.0"]]
                         }
              :dev  {:dependencies [;only for test / compile usage
-                                  [org.clojure/clojure "1.5.1"]
+                                  [org.clojure/clojure "1.7.0"]
                                   [ring/ring-core "1.2.1"]
                                   [compojure "1.1.6"]
                                   [clj-http "0.7.8"]
@@ -59,7 +59,7 @@
                     :junit ["test/java"]
                     :compile-path "target/testclasses"
                     :dependencies [
-                                  [org.clojure/clojure "1.5.1"]
+                                  [org.clojure/clojure "1.7.0"]
                                   [ring/ring-core "1.2.1"]
                                   [compojure "1.1.6"]
                                   [clj-http "0.7.8"]
@@ -84,7 +84,7 @@
                                                  :keepalive :keepalive
                                                  :all :remote}
                                 :dependencies [
-                                              [org.clojure/clojure "1.5.1"]
+                                              [org.clojure/clojure "1.7.0"]
                                               [ring/ring-core "1.2.1"]
                                               [compojure "1.1.6"]
                                               [clj-http "0.7.8"]
